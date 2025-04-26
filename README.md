@@ -89,3 +89,78 @@ Validation Layers: Overlay other relevant layers (e.g. population centers, polic
 In summary, this methodology integrates careful data cleaning and feature selection (removing outliers like aggregate totals and redundant features), exploratory clustering (with metrics like silhouette and Davies–Bouldin to assess compactness/separation​
 en.wikipedia.org
 
+​
+en.wikipedia.org
+), and supervised classification (using Random Forests/XGBoost with evaluation via AUC and F1​
+geeksforgeeks.org
+​
+encord.com
+). Semi-supervised Self-Training can exploit unlabeled data​
+scikit-learn.org
+. Finally, results are made transparent with model interpretability (feature importances, SHAP) and geographic visualizations (choropleth and cluster maps​
+en.wikipedia.org
+). The ultimate output is a data-driven “Hotspot Risk Map” highlighting districts by predicted missing-person risk level, aiding targeted action. Sources: Clustering methods and their evaluation​
+en.wikipedia.org
+​
+en.wikipedia.org
+; Random Forest overview​
+en.wikipedia.org
+; Semi-supervised self-training​
+scikit-learn.org
+; classification metrics F1 and AUC​
+encord.com
+​
+geeksforgeeks.org
+; choropleth mapping​
+en.wikipedia.org
+; insights from prior analysis​
+file-cst6xzvtwn6jhmgmmehr3e
+.
+Citations
+UML_LabExam_FinalPresentation.pdf
+
+file://file-CST6XZVTWN6JhMgMmEhR3e
+Favicon
+Silhouette (clustering) - Wikipedia
+
+https://en.wikipedia.org/wiki/Silhouette_(clustering)
+Favicon
+Davies–Bouldin index - Wikipedia
+
+https://en.wikipedia.org/wiki/Davies%E2%80%93Bouldin_index
+UML_LabExam_FinalPresentation.pdf
+
+file://file-CST6XZVTWN6JhMgMmEhR3e
+UML_LabExam_FinalPresentation.pdf
+
+file://file-CST6XZVTWN6JhMgMmEhR3e
+Favicon
+Random forest - Wikipedia
+
+https://en.wikipedia.org/wiki/Random_forest
+Favicon
+1.14. Semi-supervised learning — scikit-learn 1.6.1 documentation
+
+https://scikit-learn.org/stable/modules/semi_supervised.html
+Favicon
+1.14. Semi-supervised learning — scikit-learn 1.6.1 documentation
+
+https://scikit-learn.org/stable/modules/semi_supervised.html
+Favicon
+F1 Score in Machine Learning Explained | Encord
+
+https://encord.com/blog/f1-score-in-machine-learning/
+Favicon
+AUC ROC Curve in Machine Learning | GeeksforGeeks
+
+https://www.geeksforgeeks.org/auc-roc-curve/
+untitled
+
+https://past.date-conference.com/proceedings-archive/2020/pdf/0046.pdf
+untitled
+
+https://past.date-conference.com/proceedings-archive/2020/pdf/0046.pdf
+Favicon
+Choropleth map - Wikipedia
+
+https://en.wikipedia.org/wiki/Choropleth_map
