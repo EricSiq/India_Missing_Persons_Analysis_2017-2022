@@ -1,12 +1,19 @@
 India 5Years Districtwise Dataset (2018-2022)
-* **Scope:** India district-level dataset covering annual missing-person cases from 2018 to 2022
-* **Geography:** All districts and union territories, including reorganized areas (e.g., new districts in Andhra Pradesh/Telangana)
-* **Demographics:** Counts by gender (male, female, transgender) and age groups (children vs. adults)
-* **Age-Band Harmonization:**
 
-  * **2018–2020:** Seven detailed age bands (<5, 5–14, 14–18, 18–30, 30–45, 45–60, 60+)
-  * **2021–2022:** Four consolidated age bands (<12, 12–16, 16–18, 18+)
-* **Data Cleaning:** Removed summary rows (e.g., “Total\_Districts”), standardized column names, and corrected naming inconsistencies
-* **Feature Enrichment:** Integrated auxiliary socio-economic variables (e.g., population, literacy, poverty rates) for per-capita and weighted analyses
-* **Readiness:** Fully preprocessed and normalized, ideal for unsupervised clustering and supervised hotspot prediction tasks
+Scope: India district-level dataset covering annual missing-person cases from 2018 to 2022
 
+Geography: All districts and union territories, including reorganized areas (e.g., new districts in Andhra Pradesh/Telangana)
+
+Demographics: Counts by gender (male, female, transgender) and age groups (children vs. adults)
+
+Age-Band Harmonization:
+
+2018–2020: Seven detailed age bands (<5, 5–14, 14–18, 18–30, 30–45, 45–60, 60+)
+
+2021–2022: Four consolidated age bands (<12, 12–16, 16–18, 18+)
+
+Data Cleaning: Removed summary rows (e.g., “Total_Districts”), standardized column names, and corrected naming inconsistencies
+
+Feature Enrichment: Integrated auxiliary socio-economic variables (e.g., population, literacy, poverty rates) for per-capita and weighted analyses
+
+Readiness: Fully preprocessed and normalized, ideal for unsupervised clustering and supervised hotspot prediction tasks
